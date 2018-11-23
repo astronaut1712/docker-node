@@ -1,3 +1,3 @@
 FROM node:alpine
 
-RUN apk add python g++ make
+RUN apk add --virtual .gyp python g++ make
